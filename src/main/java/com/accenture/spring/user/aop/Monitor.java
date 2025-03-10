@@ -1,4 +1,4 @@
-package com.trivadis.spring.user.aop;
+package com.accenture.spring.user.aop;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

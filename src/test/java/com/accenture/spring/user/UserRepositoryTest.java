@@ -1,4 +1,4 @@
-package com.trivadis.spring.user;
+package com.accenture.spring.user;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
@@ -7,8 +7,8 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.util.Optional;
 import java.util.Set;
 
-import com.trivadis.spring.user.domain.User;
-import com.trivadis.spring.user.repository.UserRepository;
+import com.accenture.spring.user.domain.User;
+import com.accenture.spring.user.repository.UserRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

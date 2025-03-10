@@ -1,6 +1,6 @@
-package com.trivadis.spring.user;
+package com.accenture.spring.user;
 
-import com.trivadis.spring.user.service.UserService;
+import com.accenture.spring.user.service.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

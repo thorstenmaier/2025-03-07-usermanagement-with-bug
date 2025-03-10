@@ -1,8 +1,8 @@
-package com.trivadis.spring.user.service;
+package com.accenture.spring.user.service;
 
-import com.trivadis.spring.user.domain.User;
-import com.trivadis.spring.user.repository.LogEntryRepository;
-import com.trivadis.spring.user.repository.UserRepository;
+import com.accenture.spring.user.domain.User;
+import com.accenture.spring.user.repository.LogEntryRepository;
+import com.accenture.spring.user.repository.UserRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

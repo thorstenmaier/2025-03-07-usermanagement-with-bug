@@ -1,4 +1,4 @@
-package com.trivadis.spring.user.repository;
+package com.accenture.spring.user.repository;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.trivadis.spring.user.domain.User;
+import com.accenture.spring.user.domain.User;
 
 @Component
 public class DatabaseInitializer {

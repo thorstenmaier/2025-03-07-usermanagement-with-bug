@@ -1,4 +1,4 @@
-package com.trivadis.spring.user;
+package com.accenture.spring.user;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

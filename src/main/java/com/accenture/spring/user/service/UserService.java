@@ -1,6 +1,6 @@
-package com.trivadis.spring.user.service;
+package com.accenture.spring.user.service;
 
-import com.trivadis.spring.user.domain.User;
+import com.accenture.spring.user.domain.User;
 
 import java.util.List;
 

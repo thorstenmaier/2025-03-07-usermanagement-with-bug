@@ -1,14 +1,14 @@
-package com.trivadis.spring.user.controller;
+package com.accenture.spring.user.controller;
 
 import java.util.List;
 
-import com.trivadis.spring.user.service.UserService;
+import com.accenture.spring.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import com.trivadis.spring.user.domain.User;
+import com.accenture.spring.user.domain.User;
 
 @RestController
 public class UserController {

@@ -1,15 +1,15 @@
-package com.trivadis.spring.user.service;
+package com.accenture.spring.user.service;
 
 import java.util.List;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Component;
 
-import com.trivadis.spring.user.aop.Monitor;
-import com.trivadis.spring.user.domain.LogEntry;
-import com.trivadis.spring.user.domain.User;
-import com.trivadis.spring.user.repository.LogEntryRepository;
-import com.trivadis.spring.user.repository.UserRepository;
+import com.accenture.spring.user.aop.Monitor;
+import com.accenture.spring.user.domain.LogEntry;
+import com.accenture.spring.user.domain.User;
+import com.accenture.spring.user.repository.LogEntryRepository;
+import com.accenture.spring.user.repository.UserRepository;
 
 @Component
 public class UserServiceImpl implements UserService {

@@ -1,4 +1,4 @@
-package com.trivadis.spring.user.aop;
+package com.accenture.spring.user.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -9,8 +9,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class PerformanceMonitor {
 
-//	@Around("execution(* com.trivadis.spring.user.service..*.*(..))")
-	@Around("@annotation(com.trivadis.spring.user.aop.Monitor)")
+//	@Around("execution(* com.accenture.spring.user.service..*.*(..))")
+	@Around("@annotation(com.accenture.spring.user.aop.Monitor)")
 	public Object monitor(ProceedingJoinPoint jp) throws Throwable {
 		long before = System.currentTimeMillis();
 		

@@ -1,4 +1,4 @@
-package com.trivadis.spring.user.domain;
+package com.accenture.spring.user.domain;
 
 import jakarta.persistence.*;
 
