@@ -35,8 +35,9 @@ public class UserServiceImpl implements UserService {
 
 	@PreAuthorize("hasRole('ADMIN')")
 	public User createUser(User user) {
+		User savedUser = userRepository.save(user);
 		logEntryRepository.save(new LogEntry("User created"));
-		return userRepository.save(user);
+		return savedUser;
 	}
 
 	@Override
